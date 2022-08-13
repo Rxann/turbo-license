@@ -50,4 +50,7 @@ inquirer
           );
         });
     }
+  })
+  .catch((err) => {
+    console.log(colors.red(`Error: ${err}`));
   });
