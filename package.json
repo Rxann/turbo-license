@@ -1,0 +1,19 @@
+{
+  "name": "turbo-license",
+  "version": "0.0.0",
+  "description": "A turbo fast license generator 💨",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rxann/turbo-license.git"
+  },
+  "author": "rxan",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Rxann/turbo-license/issues"
+  },
+  "homepage": "https://github.com/Rxann/turbo-license#readme"
+}
