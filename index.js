@@ -24,6 +24,10 @@ inquirer
               "Please make sure to add needed info to the LICENSE file."
             )
           );
+        })
+        .on("error", (err) => {
+          spinner.error("An Error has occoured!");
+          console.log(colors.bgRed(err));
         });
     } else if (answer.license === "Apache 2.0") {
       createReadStream("Apache2.txt")
@@ -36,6 +40,10 @@ inquirer
               "Please make sure to add needed info to the LICENSE file."
             )
           );
+        })
+        .on("error", (err) => {
+          spinner.error("An Error has occoured!");
+          console.log(colors.bgRed(err));
         });
     } else if (answer.license === "GPL-3.0") {
       createReadStream("GPL.txt")
@@ -48,6 +56,10 @@ inquirer
               "Please make sure to add needed info to the LICENSE file."
             )
           );
+        })
+        .on("error", (err) => {
+          spinner.error("An Error has occoured!");
+          console.log(colors.bgRed(err));
         });
     }
   })
