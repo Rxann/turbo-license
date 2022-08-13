@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Rxann/turbo-license/issues"
   },
-  "homepage": "https://github.com/Rxann/turbo-license#readme"
+  "homepage": "https://github.com/Rxann/turbo-license#readme",
+  "dependencies": {
+    "nanospinner": "^1.1.0",
+    "picocolors": "^1.0.0"
+  }
 }
