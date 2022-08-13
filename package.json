@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Rxann/turbo-license#readme",
   "dependencies": {
+    "inquirer": "^9.1.0",
     "nanospinner": "^1.1.0",
     "picocolors": "^1.0.0"
-  }
+  },
+  "type": "module"
 }
